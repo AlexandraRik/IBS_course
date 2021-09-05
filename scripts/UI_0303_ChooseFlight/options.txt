@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\јлександра\Documents\VuGen\Scripts\03_ChooseFlight
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\александра\documents\vugen\scripts\03_chooseflight\\logfile.log
+c:\users\александра\documents\vugen\scripts\03_chooseflight\\combined_03_ChooseFlight.c
+c:\users\александра\documents\vugen\scripts\03_chooseflight\\pre_cci.c

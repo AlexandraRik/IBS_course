@@ -1,0 +1,467 @@
+Warning: Failed to post to 'http://127.0.0.1:8182/shunra/api/emulation/packetCaptureOnly', retcode=7.
+Warning: Failed to start NV emulation. Perhaps the NV server is not working, and therefore a NV report will not be generated.
+Virtual User Script started at: 04.09.2021 12:05:59
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (июл 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\Александра\Documents\VuGen\Scripts\UC_2_Signup\\default.cfg"  	[MsgId: MMSG-27141]
+Warning: Failed to get NV emulation handle.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Signup.
+Warning: Failed to get NV emulation handle.
+Signup.c(3): Notify: Transaction "02_GeneralTransaction" started.
+Signup.c(3): Warning: Failed to get NV emulation handle.
+Signup.c(6): Notify: Transaction "WebTourConnection" started.
+Signup.c(6): Warning: Failed to get NV emulation handle.
+Signup.c(9): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/WebTours/header.html" in "http://127.0.0.1:1080/WebTours/"  	[MsgId: MMSG-26574]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/WebTours/"  	[MsgId: MMSG-26574]
+Signup.c(9): Found resource "http://127.0.0.1:1080/WebTours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Signup.c(9): Found resource "http://127.0.0.1:1080/WebTours/images/webtours.png" in HTML "http://127.0.0.1:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Signup.c(9): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Signup.c(9): web_url("WebTours") was successful, 10080 body bytes, 2374 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(20): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Signup.c(20): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Signup.c(22): Notify: Transaction "WebTourConnection" ended with a "Pass" status (Duration: 0.2364 Wasted Time: 0.0885).
+Signup.c(27): Notify: Transaction "PressSignup" started.
+Signup.c(27): Warning: Failed to get NV emulation handle.
+Signup.c(29): web_url("sign up now") started  	[MsgId: MMSG-26355]
+Signup.c(29): Found resource "http://127.0.0.1:1080/WebTours/profileValidate.js" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Signup.c(29): Found resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Signup.c(29): web_url("sign up now") was successful, 14475 body bytes, 839 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(38): Notify: Transaction "PressSignup" ended with a "Pass" status (Duration: 0.0925 Wasted Time: 0.0048).
+Signup.c(43): Notify: Transaction "Signup" started.
+Signup.c(43): Warning: Failed to get NV emulation handle.
+Signup.c(47): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Signup.c(47): Resource "http://127.0.0.1:1080/WebTours/profileValidate.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Signup.c(47): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Signup.c(47): web_submit_data("login.pl") was successful, 2728 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(70): Notify: Transaction "Signup" ended with a "Pass" status (Duration: 0.1095 Wasted Time: 0.0052).
+Signup.c(72): Notify: Transaction "PressNext" started.
+Signup.c(72): Warning: Failed to get NV emulation handle.
+Signup.c(73): web_reg_find started  	[MsgId: MMSG-26355]
+Signup.c(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Signup.c(76): web_url("button_next.gif") started  	[MsgId: MMSG-26355]
+Signup.c(76): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Signup.c(76): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Registered web_reg_find successful for "Text=User has returned to the home page. " (count=1)  	[MsgId: MMSG-26364]
+Signup.c(76): web_url("button_next.gif") was successful, 5890 body bytes, 1889 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(85): Notify: Transaction "PressNext" ended with a "Pass" status (Duration: 0,1564 Wasted Time: 0,0059).
+Signup.c(88): Notify: Transaction "02_GeneralTransaction" ended with a "Pass" status (Duration: 0,7056 Wasted Time: 0,1044).
+Ending action Signup.
+Ending iteration 1.
+Starting iteration 2.
+Starting action Signup.
+Warning: Failed to get NV emulation handle.
+Signup.c(3): Notify: Transaction "02_GeneralTransaction" started.
+Signup.c(3): Warning: Failed to get NV emulation handle.
+Signup.c(6): Notify: Transaction "WebTourConnection" started.
+Signup.c(6): Warning: Failed to get NV emulation handle.
+Signup.c(9): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/WebTours/header.html" in "http://127.0.0.1:1080/WebTours/"  	[MsgId: MMSG-26574]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/WebTours/"  	[MsgId: MMSG-26574]
+Signup.c(9): Found resource "http://127.0.0.1:1080/WebTours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Signup.c(9): Found resource "http://127.0.0.1:1080/WebTours/images/webtours.png" in HTML "http://127.0.0.1:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Signup.c(9): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Signup.c(9): web_url("WebTours") was successful, 10080 body bytes, 2374 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(20): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Signup.c(20): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Signup.c(22): Notify: Transaction "WebTourConnection" ended with a "Pass" status (Duration: 0.1562 Wasted Time: 0.0113).
+Signup.c(27): Notify: Transaction "PressSignup" started.
+Signup.c(27): Warning: Failed to get NV emulation handle.
+Signup.c(29): web_url("sign up now") started  	[MsgId: MMSG-26355]
+Signup.c(29): Found resource "http://127.0.0.1:1080/WebTours/profileValidate.js" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Signup.c(29): Found resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Signup.c(29): web_url("sign up now") was successful, 14475 body bytes, 839 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(38): Notify: Transaction "PressSignup" ended with a "Pass" status (Duration: 0,1104 Wasted Time: 0,0082).
+Signup.c(43): Notify: Transaction "Signup" started.
+Signup.c(43): Warning: Failed to get NV emulation handle.
+Signup.c(47): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Signup.c(47): Resource "http://127.0.0.1:1080/WebTours/profileValidate.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Signup.c(47): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Signup.c(47): web_submit_data("login.pl") was successful, 2713 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(70): Notify: Transaction "Signup" ended with a "Pass" status (Duration: 0.1267 Wasted Time: 0.0081).
+Signup.c(72): Notify: Transaction "PressNext" started.
+Signup.c(72): Warning: Failed to get NV emulation handle.
+Signup.c(73): web_reg_find started  	[MsgId: MMSG-26355]
+Signup.c(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Signup.c(76): web_url("button_next.gif") started  	[MsgId: MMSG-26355]
+Signup.c(76): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Signup.c(76): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Registered web_reg_find successful for "Text=User has returned to the home page. " (count=1)  	[MsgId: MMSG-26364]
+Signup.c(76): web_url("button_next.gif") was successful, 5890 body bytes, 1889 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(85): Notify: Transaction "PressNext" ended with a "Pass" status (Duration: 0.1570 Wasted Time: 0.0102).
+Signup.c(88): Notify: Transaction "02_GeneralTransaction" ended with a "Pass" status (Duration: 0.6616 Wasted Time: 0.0378).
+Ending action Signup.
+Ending iteration 2.
+Starting iteration 3.
+Starting action Signup.
+Warning: Failed to get NV emulation handle.
+Signup.c(3): Notify: Transaction "02_GeneralTransaction" started.
+Signup.c(3): Warning: Failed to get NV emulation handle.
+Signup.c(6): Notify: Transaction "WebTourConnection" started.
+Signup.c(6): Warning: Failed to get NV emulation handle.
+Signup.c(9): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/WebTours/header.html" in "http://127.0.0.1:1080/WebTours/"  	[MsgId: MMSG-26574]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/WebTours/"  	[MsgId: MMSG-26574]
+Signup.c(9): Found resource "http://127.0.0.1:1080/WebTours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Signup.c(9): Found resource "http://127.0.0.1:1080/WebTours/images/webtours.png" in HTML "http://127.0.0.1:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Signup.c(9): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Signup.c(9): web_url("WebTours") was successful, 10070 body bytes, 2374 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(20): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Signup.c(20): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Signup.c(22): Notify: Transaction "WebTourConnection" ended with a "Pass" status (Duration: 0.1717 Wasted Time: 0.0132).
+Signup.c(27): Notify: Transaction "PressSignup" started.
+Signup.c(27): Warning: Failed to get NV emulation handle.
+Signup.c(29): web_url("sign up now") started  	[MsgId: MMSG-26355]
+Signup.c(29): Found resource "http://127.0.0.1:1080/WebTours/profileValidate.js" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Signup.c(29): Found resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Signup.c(29): web_url("sign up now") was successful, 14475 body bytes, 839 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(38): Notify: Transaction "PressSignup" ended with a "Pass" status (Duration: 0.0929 Wasted Time: 0.0117).
+Signup.c(43): Notify: Transaction "Signup" started.
+Signup.c(43): Warning: Failed to get NV emulation handle.
+Signup.c(47): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Signup.c(47): Resource "http://127.0.0.1:1080/WebTours/profileValidate.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Signup.c(47): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Signup.c(47): web_submit_data("login.pl") was successful, 2715 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(70): Notify: Transaction "Signup" ended with a "Pass" status (Duration: 0,1245 Wasted Time: 0,0091).
+Signup.c(72): Notify: Transaction "PressNext" started.
+Signup.c(72): Warning: Failed to get NV emulation handle.
+Signup.c(73): web_reg_find started  	[MsgId: MMSG-26355]
+Signup.c(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Signup.c(76): web_url("button_next.gif") started  	[MsgId: MMSG-26355]
+Signup.c(76): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Signup.c(76): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Registered web_reg_find successful for "Text=User has returned to the home page. " (count=1)  	[MsgId: MMSG-26364]
+Signup.c(76): web_url("button_next.gif") was successful, 5890 body bytes, 1889 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(85): Notify: Transaction "PressNext" ended with a "Pass" status (Duration: 0.1559 Wasted Time: 0.0112).
+Signup.c(88): Notify: Transaction "02_GeneralTransaction" ended with a "Pass" status (Duration: 0.6551 Wasted Time: 0.0452).
+Ending action Signup.
+Ending iteration 3.
+Starting iteration 4.
+Starting action Signup.
+Warning: Failed to get NV emulation handle.
+Signup.c(3): Notify: Transaction "02_GeneralTransaction" started.
+Signup.c(3): Warning: Failed to get NV emulation handle.
+Signup.c(6): Notify: Transaction "WebTourConnection" started.
+Signup.c(6): Warning: Failed to get NV emulation handle.
+Signup.c(9): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/WebTours/header.html" in "http://127.0.0.1:1080/WebTours/"  	[MsgId: MMSG-26574]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/WebTours/"  	[MsgId: MMSG-26574]
+Signup.c(9): Found resource "http://127.0.0.1:1080/WebTours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Signup.c(9): Found resource "http://127.0.0.1:1080/WebTours/images/webtours.png" in HTML "http://127.0.0.1:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Signup.c(9): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Signup.c(9): web_url("WebTours") was successful, 10080 body bytes, 2374 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(20): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Signup.c(20): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Signup.c(22): Notify: Transaction "WebTourConnection" ended with a "Pass" status (Duration: 0.1570 Wasted Time: 0.0149).
+Signup.c(27): Notify: Transaction "PressSignup" started.
+Signup.c(27): Warning: Failed to get NV emulation handle.
+Signup.c(29): web_url("sign up now") started  	[MsgId: MMSG-26355]
+Signup.c(29): Found resource "http://127.0.0.1:1080/WebTours/profileValidate.js" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Signup.c(29): Found resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Signup.c(29): web_url("sign up now") was successful, 14475 body bytes, 839 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(38): Notify: Transaction "PressSignup" ended with a "Pass" status (Duration: 0.0933 Wasted Time: 0.0139).
+Signup.c(43): Notify: Transaction "Signup" started.
+Signup.c(43): Warning: Failed to get NV emulation handle.
+Signup.c(47): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Signup.c(47): Resource "http://127.0.0.1:1080/WebTours/profileValidate.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Signup.c(47): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Signup.c(47): web_submit_data("login.pl") was successful, 2717 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(70): Notify: Transaction "Signup" ended with a "Pass" status (Duration: 0.1084 Wasted Time: 0.0142).
+Signup.c(72): Notify: Transaction "PressNext" started.
+Signup.c(72): Warning: Failed to get NV emulation handle.
+Signup.c(73): web_reg_find started  	[MsgId: MMSG-26355]
+Signup.c(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Signup.c(76): web_url("button_next.gif") started  	[MsgId: MMSG-26355]
+Signup.c(76): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Signup.c(76): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Registered web_reg_find successful for "Text=User has returned to the home page. " (count=1)  	[MsgId: MMSG-26364]
+Signup.c(76): web_url("button_next.gif") was successful, 5890 body bytes, 1889 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(85): Notify: Transaction "PressNext" ended with a "Pass" status (Duration: 0.1566 Wasted Time: 0.0177).
+Signup.c(88): Notify: Transaction "02_GeneralTransaction" ended with a "Pass" status (Duration: 0.6250 Wasted Time: 0.0607).
+Ending action Signup.
+Ending iteration 4.
+Starting iteration 5.
+Starting action Signup.
+Warning: Failed to get NV emulation handle.
+Signup.c(3): Notify: Transaction "02_GeneralTransaction" started.
+Signup.c(3): Warning: Failed to get NV emulation handle.
+Signup.c(6): Notify: Transaction "WebTourConnection" started.
+Signup.c(6): Warning: Failed to get NV emulation handle.
+Signup.c(9): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/WebTours/header.html" in "http://127.0.0.1:1080/WebTours/"  	[MsgId: MMSG-26574]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/WebTours/"  	[MsgId: MMSG-26574]
+Signup.c(9): Found resource "http://127.0.0.1:1080/WebTours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Signup.c(9): Found resource "http://127.0.0.1:1080/WebTours/images/webtours.png" in HTML "http://127.0.0.1:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Signup.c(9): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Signup.c(9): web_url("WebTours") was successful, 10080 body bytes, 2374 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(20): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Signup.c(20): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Signup.c(22): Notify: Transaction "WebTourConnection" ended with a "Pass" status (Duration: 0.1718 Wasted Time: 0.0226).
+Signup.c(27): Notify: Transaction "PressSignup" started.
+Signup.c(27): Warning: Failed to get NV emulation handle.
+Signup.c(29): web_url("sign up now") started  	[MsgId: MMSG-26355]
+Signup.c(29): Found resource "http://127.0.0.1:1080/WebTours/profileValidate.js" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Signup.c(29): Found resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Signup.c(29): web_url("sign up now") was successful, 14475 body bytes, 839 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(38): Notify: Transaction "PressSignup" ended with a "Pass" status (Duration: 0.0937 Wasted Time: 0.0160).
+Signup.c(43): Notify: Transaction "Signup" started.
+Signup.c(43): Warning: Failed to get NV emulation handle.
+Signup.c(47): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Signup.c(47): Resource "http://127.0.0.1:1080/WebTours/profileValidate.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Signup.c(47): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Signup.c(47): web_submit_data("login.pl") was successful, 2710 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(70): Notify: Transaction "Signup" ended with a "Pass" status (Duration: 0.1084 Wasted Time: 0.0156).
+Signup.c(72): Notify: Transaction "PressNext" started.
+Signup.c(72): Warning: Failed to get NV emulation handle.
+Signup.c(73): web_reg_find started  	[MsgId: MMSG-26355]
+Signup.c(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Signup.c(76): web_url("button_next.gif") started  	[MsgId: MMSG-26355]
+Signup.c(76): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Signup.c(76): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Registered web_reg_find successful for "Text=User has returned to the home page. " (count=1)  	[MsgId: MMSG-26364]
+Signup.c(76): web_url("button_next.gif") was successful, 5890 body bytes, 1889 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(85): Notify: Transaction "PressNext" ended with a "Pass" status (Duration: 0.1590 Wasted Time: 0.0176).
+Signup.c(88): Notify: Transaction "02_GeneralTransaction" ended with a "Pass" status (Duration: 0.6441 Wasted Time: 0.0718).
+Ending action Signup.
+Ending iteration 5.
+Starting iteration 6.
+Starting action Signup.
+Warning: Failed to get NV emulation handle.
+Signup.c(3): Notify: Transaction "02_GeneralTransaction" started.
+Signup.c(3): Warning: Failed to get NV emulation handle.
+Signup.c(6): Notify: Transaction "WebTourConnection" started.
+Signup.c(6): Warning: Failed to get NV emulation handle.
+Signup.c(9): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/WebTours/header.html" in "http://127.0.0.1:1080/WebTours/"  	[MsgId: MMSG-26574]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/WebTours/"  	[MsgId: MMSG-26574]
+Signup.c(9): Found resource "http://127.0.0.1:1080/WebTours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Signup.c(9): Found resource "http://127.0.0.1:1080/WebTours/images/webtours.png" in HTML "http://127.0.0.1:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Signup.c(9): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Signup.c(9): web_url("WebTours") was successful, 10079 body bytes, 2374 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(20): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Signup.c(20): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Signup.c(22): Notify: Transaction "WebTourConnection" ended with a "Pass" status (Duration: 0.1713 Wasted Time: 0.0233).
+Signup.c(27): Notify: Transaction "PressSignup" started.
+Signup.c(27): Warning: Failed to get NV emulation handle.
+Signup.c(29): web_url("sign up now") started  	[MsgId: MMSG-26355]
+Signup.c(29): Found resource "http://127.0.0.1:1080/WebTours/profileValidate.js" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Signup.c(29): Found resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Signup.c(29): web_url("sign up now") was successful, 14475 body bytes, 839 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(38): Notify: Transaction "PressSignup" ended with a "Pass" status (Duration: 0.1103 Wasted Time: 0.0233).
+Signup.c(43): Notify: Transaction "Signup" started.
+Signup.c(43): Warning: Failed to get NV emulation handle.
+Signup.c(47): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Signup.c(47): Resource "http://127.0.0.1:1080/WebTours/profileValidate.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Signup.c(47): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Signup.c(47): web_submit_data("login.pl") was successful, 2714 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(70): Notify: Transaction "Signup" ended with a "Pass" status (Duration: 0.1095 Wasted Time: 0.0201).
+Signup.c(72): Notify: Transaction "PressNext" started.
+Signup.c(72): Warning: Failed to get NV emulation handle.
+Signup.c(73): web_reg_find started  	[MsgId: MMSG-26355]
+Signup.c(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Signup.c(76): web_url("button_next.gif") started  	[MsgId: MMSG-26355]
+Signup.c(76): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Signup.c(76): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Registered web_reg_find successful for "Text=User has returned to the home page. " (count=1)  	[MsgId: MMSG-26364]
+Signup.c(76): web_url("button_next.gif") was successful, 5890 body bytes, 1889 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(85): Notify: Transaction "PressNext" ended with a "Pass" status (Duration: 0.1714 Wasted Time: 0.0207).
+Signup.c(88): Notify: Transaction "02_GeneralTransaction" ended with a "Pass" status (Duration: 0.6710 Wasted Time: 0.0874).
+Ending action Signup.
+Ending iteration 6.
+Starting iteration 7.
+Starting action Signup.
+Warning: Failed to get NV emulation handle.
+Signup.c(3): Notify: Transaction "02_GeneralTransaction" started.
+Signup.c(3): Warning: Failed to get NV emulation handle.
+Signup.c(6): Notify: Transaction "WebTourConnection" started.
+Signup.c(6): Warning: Failed to get NV emulation handle.
+Signup.c(9): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/WebTours/header.html" in "http://127.0.0.1:1080/WebTours/"  	[MsgId: MMSG-26574]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/WebTours/"  	[MsgId: MMSG-26574]
+Signup.c(9): Found resource "http://127.0.0.1:1080/WebTours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Signup.c(9): Found resource "http://127.0.0.1:1080/WebTours/images/webtours.png" in HTML "http://127.0.0.1:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Signup.c(9): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Signup.c(9): web_url("WebTours") was successful, 10076 body bytes, 2374 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(20): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Signup.c(20): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Signup.c(22): Notify: Transaction "WebTourConnection" ended with a "Pass" status (Duration: 0.1575 Wasted Time: 0.0236).
+Signup.c(27): Notify: Transaction "PressSignup" started.
+Signup.c(27): Warning: Failed to get NV emulation handle.
+Signup.c(29): web_url("sign up now") started  	[MsgId: MMSG-26355]
+Signup.c(29): Found resource "http://127.0.0.1:1080/WebTours/profileValidate.js" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Signup.c(29): Found resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Signup.c(29): web_url("sign up now") was successful, 14475 body bytes, 839 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(38): Notify: Transaction "PressSignup" ended with a "Pass" status (Duration: 0.1081 Wasted Time: 0.0251).
+Signup.c(43): Notify: Transaction "Signup" started.
+Signup.c(43): Warning: Failed to get NV emulation handle.
+Signup.c(47): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Signup.c(47): Resource "http://127.0.0.1:1080/WebTours/profileValidate.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Signup.c(47): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Signup.c(47): web_submit_data("login.pl") was successful, 2711 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(70): Notify: Transaction "Signup" ended with a "Pass" status (Duration: 0.1257 Wasted Time: 0.0258).
+Signup.c(72): Notify: Transaction "PressNext" started.
+Signup.c(72): Warning: Failed to get NV emulation handle.
+Signup.c(73): web_reg_find started  	[MsgId: MMSG-26355]
+Signup.c(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Signup.c(76): web_url("button_next.gif") started  	[MsgId: MMSG-26355]
+Signup.c(76): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Signup.c(76): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Registered web_reg_find successful for "Text=User has returned to the home page. " (count=1)  	[MsgId: MMSG-26364]
+Signup.c(76): web_url("button_next.gif") was successful, 5890 body bytes, 1889 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(85): Notify: Transaction "PressNext" ended with a "Pass" status (Duration: 0.1724 Wasted Time: 0.0248).
+Signup.c(88): Notify: Transaction "02_GeneralTransaction" ended with a "Pass" status (Duration: 0,6769 Wasted Time: 0,0992).
+Ending action Signup.
+Ending iteration 7.
+Starting iteration 8.
+Starting action Signup.
+Warning: Failed to get NV emulation handle.
+Signup.c(3): Notify: Transaction "02_GeneralTransaction" started.
+Signup.c(3): Warning: Failed to get NV emulation handle.
+Signup.c(6): Notify: Transaction "WebTourConnection" started.
+Signup.c(6): Warning: Failed to get NV emulation handle.
+Signup.c(9): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/WebTours/header.html" in "http://127.0.0.1:1080/WebTours/"  	[MsgId: MMSG-26574]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/WebTours/"  	[MsgId: MMSG-26574]
+Signup.c(9): Found resource "http://127.0.0.1:1080/WebTours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Signup.c(9): Found resource "http://127.0.0.1:1080/WebTours/images/webtours.png" in HTML "http://127.0.0.1:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Signup.c(9): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Signup.c(9): web_url("WebTours") was successful, 10076 body bytes, 2374 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(20): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Signup.c(20): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Signup.c(22): Notify: Transaction "WebTourConnection" ended with a "Pass" status (Duration: 0.1714 Wasted Time: 0.0279).
+Signup.c(27): Notify: Transaction "PressSignup" started.
+Signup.c(27): Warning: Failed to get NV emulation handle.
+Signup.c(29): web_url("sign up now") started  	[MsgId: MMSG-26355]
+Signup.c(29): Found resource "http://127.0.0.1:1080/WebTours/profileValidate.js" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Signup.c(29): Found resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Signup.c(29): web_url("sign up now") was successful, 14475 body bytes, 839 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(38): Notify: Transaction "PressSignup" ended with a "Pass" status (Duration: 0.1097 Wasted Time: 0.0254).
+Signup.c(43): Notify: Transaction "Signup" started.
+Signup.c(43): Warning: Failed to get NV emulation handle.
+Signup.c(47): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Signup.c(47): Resource "http://127.0.0.1:1080/WebTours/profileValidate.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Signup.c(47): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Signup.c(47): web_submit_data("login.pl") was successful, 2721 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(70): Notify: Transaction "Signup" ended with a "Pass" status (Duration: 0,1270 Wasted Time: 0,0239).
+Signup.c(72): Notify: Transaction "PressNext" started.
+Signup.c(72): Warning: Failed to get NV emulation handle.
+Signup.c(73): web_reg_find started  	[MsgId: MMSG-26355]
+Signup.c(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Signup.c(76): web_url("button_next.gif") started  	[MsgId: MMSG-26355]
+Signup.c(76): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Signup.c(76): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Registered web_reg_find successful for "Text=User has returned to the home page. " (count=1)  	[MsgId: MMSG-26364]
+Signup.c(76): web_url("button_next.gif") was successful, 5890 body bytes, 1889 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(85): Notify: Transaction "PressNext" ended with a "Pass" status (Duration: 0.1876 Wasted Time: 0.0285).
+Signup.c(88): Notify: Transaction "02_GeneralTransaction" ended with a "Pass" status (Duration: 0.7079 Wasted Time: 0.1058).
+Ending action Signup.
+Ending iteration 8.
+Starting iteration 9.
+Starting action Signup.
+Warning: Failed to get NV emulation handle.
+Signup.c(3): Notify: Transaction "02_GeneralTransaction" started.
+Signup.c(3): Warning: Failed to get NV emulation handle.
+Signup.c(6): Notify: Transaction "WebTourConnection" started.
+Signup.c(6): Warning: Failed to get NV emulation handle.
+Signup.c(9): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/WebTours/header.html" in "http://127.0.0.1:1080/WebTours/"  	[MsgId: MMSG-26574]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/WebTours/"  	[MsgId: MMSG-26574]
+Signup.c(9): Found resource "http://127.0.0.1:1080/WebTours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Signup.c(9): Found resource "http://127.0.0.1:1080/WebTours/images/webtours.png" in HTML "http://127.0.0.1:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Signup.c(9): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Signup.c(9): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Signup.c(9): web_url("WebTours") was successful, 10078 body bytes, 2374 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(20): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Signup.c(20): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Signup.c(22): Notify: Transaction "WebTourConnection" ended with a "Pass" status (Duration: 0.1730 Wasted Time: 0.0325).
+Signup.c(27): Notify: Transaction "PressSignup" started.
+Signup.c(27): Warning: Failed to get NV emulation handle.
+Signup.c(29): web_url("sign up now") started  	[MsgId: MMSG-26355]
+Signup.c(29): Found resource "http://127.0.0.1:1080/WebTours/profileValidate.js" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Signup.c(29): Found resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Signup.c(29): web_url("sign up now") was successful, 14475 body bytes, 839 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(38): Notify: Transaction "PressSignup" ended with a "Pass" status (Duration: 0.1261 Wasted Time: 0.0323).
+Signup.c(43): Notify: Transaction "Signup" started.
+Signup.c(43): Warning: Failed to get NV emulation handle.
+Signup.c(47): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Signup.c(47): Resource "http://127.0.0.1:1080/WebTours/profileValidate.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Signup.c(47): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Signup.c(47): web_submit_data("login.pl") was successful, 2723 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(70): Notify: Transaction "Signup" ended with a "Pass" status (Duration: 0,1242 Wasted Time: 0,0271).
+Signup.c(72): Notify: Transaction "PressNext" started.
+Signup.c(72): Warning: Failed to get NV emulation handle.
+Signup.c(73): web_reg_find started  	[MsgId: MMSG-26355]
+Signup.c(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Signup.c(76): web_url("button_next.gif") started  	[MsgId: MMSG-26355]
+Signup.c(76): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Signup.c(76): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Signup.c(76): Registered web_reg_find successful for "Text=User has returned to the home page. " (count=1)  	[MsgId: MMSG-26364]
+Signup.c(76): web_url("button_next.gif") was successful, 5890 body bytes, 1889 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Signup.c(85): Notify: Transaction "PressNext" ended with a "Pass" status (Duration: 0.2037 Wasted Time: 0.0409).
+Signup.c(88): Notify: Transaction "02_GeneralTransaction" ended with a "Pass" status (Duration: 0.7391 Wasted Time: 0.1328).
+Ending action Signup.
+Ending iteration 9.
+Ending Vuser...
+Starting action vuser_end.
+Warning: Failed to get NV emulation handle.
+Ending action vuser_end.
+Vuser Terminated.

@@ -1,0 +1,7 @@
+"1=on&flightID=242334453-788-GB&flightID=242334453-1557-GB&flightID=242334453-2327-GB&flightID="
+"242334453-3096-GB&flightID=242334453-3865-GB&flightID=242334453-4634-GB&flightID=242334453-540"
+"3-GB&flightID=242334453-6173-GB&flightID=242334453-6942-GB&flightID=242334453-7711-GB&flightID"
+"=242334453-8480-GB&flightID=242334453-9250-GB&flightID=242334453-10019-GB&flightID=242334453-1"
+"0788-GB&.cgifields=6&.cgifields=11&.cgifields=3&.cgifields=7&.cgifields=9&.cgifields=12&.cgifi"
+"elds=2&.cgifields=14&.cgifields=8&.cgifields=1&.cgifields=4&.cgifields=13&.cgifields=10&.cgifi"
+"elds=5&removeFlights.x=45&removeFlights.y=6"
