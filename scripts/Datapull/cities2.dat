@@ -1,0 +1,11 @@
+Arrival,Department
+London,Denver
+Paris,Denver
+Portland,Denver
+Seattle,Denver
+London,Paris
+London,Los Angeles
+Seattle,Los Angeles
+Seattle,London
+Los Angeles,Paris
+Sydney,Seattle
