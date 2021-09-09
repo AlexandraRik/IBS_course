@@ -1,7 +1,0 @@
-"1=on&flightID=324630750-788-LV&flightID=324630750-1557-LV&flightID=324630750-2327-LV&flightID="
-"324630750-3096-LV&flightID=324630750-3865-LV&flightID=324630750-4634-LV&flightID=324630750-540"
-"3-LV&flightID=324630750-6173-LV&flightID=324630750-6942-LV&flightID=324630750-7711-LV&flightID"
-"=324630750-8480-LV&flightID=324630750-9250-LV&flightID=324630750-10019-LV&flightID=324630750-1"
-"0788-LV&.cgifields=6&.cgifields=11&.cgifields=3&.cgifields=7&.cgifields=9&.cgifields=12&.cgifi"
-"elds=2&.cgifields=14&.cgifields=8&.cgifields=1&.cgifields=4&.cgifields=13&.cgifields=10&.cgifi"
-"elds=5&removeFlights.x=45&removeFlights.y=6"
