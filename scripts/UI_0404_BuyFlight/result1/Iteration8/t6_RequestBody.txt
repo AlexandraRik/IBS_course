@@ -1,4 +1,0 @@
-"firstName=Bin&lastName=Bin&address1=Alley+7&address2=London&pass1=Bin+Bin&creditCard=87654&exp"
-"Date=08%2F22&oldCCOption=&numPassengers=1&seatType=Business&seatPref=None&outboundFlight=030%3"
-"B251%3B09%2F02%2F2021&advanceDiscount=0&returnFlight=&JSFormSubmit=off&.cgifields=saveCC&buyFl"
-"ights.x=23&buyFlights.y=5"
