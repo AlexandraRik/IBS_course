@@ -51,9 +51,9 @@ vuser_init=cci
 Flights=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="0404_BuyFlight__*delimiter*__WebTourConnection__*delimiter*__Login__*delimiter*__Flights__*delimiter*__SearchFlight__*delimiter*__ChooseFlight__*delimiter*__PaymentData__*delimiter*__Itinerary"
+Order="0404_BuyFlight__*delimiter*__WebTourConnection__*delimiter*__Login__*delimiter*__Flights__*delimiter*__SearchFlight__*delimiter*__ChooseFlight__*delimiter*__PaymentData__*delimiter*__Itinerary__*delimiter*__SignOff"
 [StateManagement]
-LastReplayStatus=1
+LastReplayStatus=2
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1
@@ -66,3 +66,4 @@ SearchFlight=
 ChooseFlight=
 PaymentData=
 Itinerary=
+SignOff=

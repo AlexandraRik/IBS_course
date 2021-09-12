@@ -1,4 +1,4 @@
 "firstName=Lira&lastName=Vo&address1=Alley+4&address2=Rio&pass1=Lira+Vo&creditCard=98765&expDat"
-"e=07%2F22&oldCCOption=&numPassengers=1&seatType=First&seatPref=None&outboundFlight=%7Boutbound"
-"Flight%7D&advanceDiscount=0&returnFlight=&JSFormSubmit=off&.cgifields=saveCC&buyFlights.x=23&b"
-"uyFlights.y=5"
+"e=07%2F22&oldCCOption=&numPassengers=1&seatType=First&seatPref=None&outboundFlight=340%3B822%3"
+"B07%2F10%2F2021&advanceDiscount=0&returnFlight=&JSFormSubmit=off&.cgifields=saveCC&buyFlights."
+"x=23&buyFlights.y=5"

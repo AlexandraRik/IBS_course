@@ -1,4 +1,4 @@
 "firstName=Alexander&lastName=Smirnov&address1=Alley&address2=Moscow&pass1=Alexander+Smirnov&cr"
 "editCard=12345&expDate=01%2F22&oldCCOption=&numPassengers=1&seatType=First&seatPref=Aisle&outb"
-"oundFlight=%7BoutboundFlight%7D&advanceDiscount=0&returnFlight=&JSFormSubmit=off&.cgifields=sa"
-"veCC&buyFlights.x=23&buyFlights.y=5"
+"oundFlight=420%3B204%3B01%2F10%2F2021&advanceDiscount=0&returnFlight=&JSFormSubmit=off&.cgifie"
+"lds=saveCC&buyFlights.x=23&buyFlights.y=5"

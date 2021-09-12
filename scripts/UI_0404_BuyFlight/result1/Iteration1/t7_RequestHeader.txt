@@ -7,6 +7,6 @@ Accept-Language: ru,en-US;q=0.7,en;q=0.3
 Accept: */*
 Connection: Keep-Alive
 Host: 127.0.0.1:1080
-Cookie: MSO=SID&1631463817; MTUserInfo=firstName&Alexander&username&AlexS&address2&Moscow&hash&83&address1&Alley&lastName&Smirnov%0A
+Cookie: MSO=SID&1631475650; MTUserInfo=firstName&Alexander&username&AlexS&address2&Moscow&hash&83&address1&Alley&lastName&Smirnov%0A
 Content-Length: 34
 

@@ -2680,6 +2680,10 @@ Flights()
 	lr_start_transaction("SearchFlight");
 
 	
+	web_reg_save_param("outboundFlight",
+		"LB/IC=name=\"outboundFlight\" value=\"",
+		"RB/IC=\"",
+		"LAST");
 
 	web_reg_find("Text/IC=Flight Selection", "LAST"); 
 	web_reg_find("Text/IC={SeatType}", "LAST");
@@ -2716,31 +2720,6 @@ Flights()
 	lr_end_transaction("SearchFlight", 2);
 
 	lr_start_transaction("ChooseFlight");
-
-
-
-
- 
- 
- 
- 
- 
- 
- 
-	 
- 
- 
- 
- 
- 
- 
- 
-
-	web_reg_save_param("outboundFlight",
-		"LB/IC=name=\"outboundFlight\" value=\"",
-		"RB/IC=\"",
-		"LAST");
-
 	
 
 	web_reg_find("Text/IC={SeatType}", "LAST");
@@ -2812,7 +2791,12 @@ Flights()
 	
 	lr_end_transaction("PaymentData", 2);
 	
+	
+	
+	
 	lr_start_transaction("Itinerary");
+	
+
 
 	web_submit_form("reservations.pl_4", 
 		"Snapshot=t25.inf", 
@@ -2822,34 +2806,18 @@ Flights()
 		"LAST");
 	lr_end_transaction("Itinerary", 2);
 	
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+	lr_think_time(5);
+
 	
- 
- 
- 
- 
- 
- 
- 
- 
+	lr_start_transaction("SignOff");
+
+	web_image("SignOff Button", 
+		"Alt=SignOff Button", 
+		"Snapshot=t5.inf", 
+		"LAST");
+
+	lr_end_transaction("SignOff",2); 
+	
 	
 	lr_end_transaction("0404_BuyFlight", 2);
 	
