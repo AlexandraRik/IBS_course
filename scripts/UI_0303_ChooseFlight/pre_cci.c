@@ -2622,7 +2622,7 @@ Action()
 	
 	lr_end_transaction("WebTourConnection", 2);
 
-	lr_think_time(37);
+	lr_think_time(5);
 
 	lr_start_transaction("Login");
 	
@@ -2716,15 +2716,20 @@ Action()
 
 	lr_end_transaction("SearchFlight",2);
 
-	lr_think_time(5);
+	lr_think_time(4);
 
 	lr_start_transaction("ChooseFlight");
 	
 	
+ 
+ 
+ 
+ 
+ 
+	
 	web_reg_save_param("outboundFlight",
-		"LB/IC=outboundFlight\" value=\"",
+		"LB/IC=\"outboundFlight\" value=\"",
 		"RB/IC=\"",
-		"Ord=ALL",
 		"LAST");
 
 	
@@ -2752,6 +2757,20 @@ Action()
 		"LAST");
 
 	lr_end_transaction("ChooseFlight",2);
+	
+ 
+	
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+	
+		
+	
 	lr_end_transaction("0303_ChooseFLight", 2);
 	
 

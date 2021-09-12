@@ -3,30 +3,30 @@
         "stepId": "STEP6",
         "stepName": "Url: WebTours",
         "infFile": "t1.inf",
-        "time": 1631193465261
+        "time": 1631464203261
     },
     {
         "stepId": "STEP7",
         "stepName": "Submit Data: login.pl",
         "infFile": "t2.inf",
-        "time": 1631193465557
+        "time": 1631464203544
     },
     {
         "stepId": "STEP8",
         "stepName": "Url: Search Flights Button",
         "infFile": "t3.inf",
-        "time": 1631193465858
+        "time": 1631464203816
     },
     {
         "stepId": "STEP9",
         "stepName": "Submit Data: reservations.pl",
         "infFile": "t4.inf",
-        "time": 1631193466144
+        "time": 1631464204104
     },
     {
         "stepId": "STEP10",
         "stepName": "Submit Data: reservations.pl_2",
         "infFile": "t5.inf",
-        "time": 1631193466447
+        "time": 1631464204371
     }
 ]

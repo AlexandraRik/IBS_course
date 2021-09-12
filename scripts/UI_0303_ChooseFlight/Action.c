@@ -27,7 +27,7 @@ Action()
 	
 	lr_end_transaction("WebTourConnection", LR_AUTO);
 
-	lr_think_time(37);
+	lr_think_time(5);
 
 	lr_start_transaction("Login");
 	
@@ -121,15 +121,20 @@ Action()
 
 	lr_end_transaction("SearchFlight",LR_AUTO);
 
-	lr_think_time(5);
+	lr_think_time(4);
 
 	lr_start_transaction("ChooseFlight");
 	
 	
+//	web_reg_save_param("outboundFlight",
+//		"LB/IC=outboundFlight\" value=\"",
+//		"RB/IC=\"",
+//		"Ord=ALL",
+//		LAST);
+	
 	web_reg_save_param("outboundFlight",
-		"LB/IC=outboundFlight\" value=\"",
+		"LB/IC=\"outboundFlight\" value=\"",
 		"RB/IC=\"",
-		"Ord=ALL",
 		LAST);
 
 	
@@ -157,6 +162,20 @@ Action()
 		LAST);
 
 	lr_end_transaction("ChooseFlight",LR_AUTO);
+	
+//	lr_think_time(2);
+	
+//	lr_start_transaction("SignOff");
+//
+//	web_image("SignOff Button", 
+//		"Alt=SignOff Button", 
+//		"Snapshot=t5.inf", 
+//		LAST);
+//
+//	lr_end_transaction("SignOff",LR_AUTO);
+	
+		
+	
 	lr_end_transaction("0303_ChooseFLight", LR_AUTO);
 	
 
