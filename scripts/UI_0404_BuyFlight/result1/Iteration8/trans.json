@@ -1,37 +1,42 @@
 [
     {
         "transactionName": "WebTourConnection",
-        "rawStartTime": 1631193357384,
-        "rawEndTime": 1631193357616
+        "rawStartTime": 1631463833159,
+        "rawEndTime": 1631463833408
     },
     {
         "transactionName": "Login",
-        "rawStartTime": 1631193357696,
-        "rawEndTime": 1631193357981
+        "rawStartTime": 1631463833487,
+        "rawEndTime": 1631463833784
     },
     {
         "transactionName": "Flights",
-        "rawStartTime": 1631193358077,
-        "rawEndTime": 1631193358325
+        "rawStartTime": 1631463833862,
+        "rawEndTime": 1631463834080
     },
     {
         "transactionName": "SearchFlight",
-        "rawStartTime": 1631193358405,
-        "rawEndTime": 1631193358872
+        "rawStartTime": 1631463834143,
+        "rawEndTime": 1631463834393
     },
     {
         "transactionName": "ChooseFlight",
-        "rawStartTime": 1631193358933,
-        "rawEndTime": 1631193359185
+        "rawStartTime": 1631463834485,
+        "rawEndTime": 1631463834721
     },
     {
         "transactionName": "PaymentData",
-        "rawStartTime": 1631193359247,
-        "rawEndTime": 1631193359471
+        "rawStartTime": 1631463834801,
+        "rawEndTime": 1631463834988
+    },
+    {
+        "transactionName": "Itinerary",
+        "rawStartTime": 1631463835068,
+        "rawEndTime": 1631463835223
     },
     {
         "transactionName": "0404_BuyFlight",
-        "rawStartTime": 1631193357337,
-        "rawEndTime": 1631193359549
+        "rawStartTime": 1631463833112,
+        "rawEndTime": 1631463835301
     }
 ]

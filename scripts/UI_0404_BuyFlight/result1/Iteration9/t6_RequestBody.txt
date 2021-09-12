@@ -1,4 +1,4 @@
 "firstName=Gerald&lastName=Ber&address1=Alley+6&address2=Berlin&pass1=Gerald+Ber&creditCard=765"
 "43&expDate=09%2F22&oldCCOption=&numPassengers=1&seatType=Business&seatPref=None&outboundFlight"
-"=132133.929445119zHQzzDipQQfiDDDDtAHHQpiDDQHf&advanceDiscount=0&returnFlight=&JSFormSubmit=off"
-"&.cgifields=saveCC&buyFlights.x=23&buyFlights.y=5"
+"=%7BoutboundFlight%7D&advanceDiscount=0&returnFlight=&JSFormSubmit=off&.cgifields=saveCC&buyFl"
+"ights.x=23&buyFlights.y=5"

@@ -1,4 +1,4 @@
 "firstName=Bin&lastName=Bin&address1=Alley+7&address2=London&pass1=Bin+Bin&creditCard=87654&exp"
-"Date=10%2F22&oldCCOption=&numPassengers=1&seatType=First&seatPref=Aisle&outboundFlight=132133."
-"929688133zHQzzDQpAAiDDDDDtAHHQpiDtAf&advanceDiscount=0&returnFlight=&JSFormSubmit=off&.cgifiel"
-"ds=saveCC&buyFlights.x=23&buyFlights.y=5"
+"Date=10%2F22&oldCCOption=&numPassengers=1&seatType=First&seatPref=Aisle&outboundFlight=%7Boutb"
+"oundFlight%7D&advanceDiscount=0&returnFlight=&JSFormSubmit=off&.cgifields=saveCC&buyFlights.x="
+"23&buyFlights.y=5"

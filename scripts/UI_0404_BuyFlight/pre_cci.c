@@ -2673,7 +2673,7 @@ Flights()
 		"Mode=HTML",
 		"LAST");
 
-	lr_think_time(29);
+	lr_think_time(5);
 	lr_end_transaction("Flights", 2); 
 
 	
@@ -2724,8 +2724,20 @@ Flights()
  
  
  
+ 
+ 
+ 
+	 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
 	web_reg_save_param("outboundFlight",
-		"LB/IC=\"outboundFlight\" value=\"",
+		"LB/IC=name=\"outboundFlight\" value=\"",
 		"RB/IC=\"",
 		"LAST");
 
@@ -2760,8 +2772,8 @@ Flights()
 	
 	lr_start_transaction("PaymentData");
 
-	web_reg_find("Text/IC=Thank you for booking through Web Tours",
-		"LAST");
+	 
+		 
 	web_reg_find("Text/IC={FirstName}", "LAST");
 	web_reg_find("Text/IC={LastName}", "LAST");
 	web_reg_find("Text/IC={SeatType}", "LAST");
@@ -2788,7 +2800,7 @@ Flights()
 		"Name=numPassengers", "Value=1", "ENDITEM", 
 		"Name=seatType", "Value={SeatType}", "ENDITEM", 
 		"Name=seatPref", "Value={Seatpref}", "ENDITEM", 
-		"Name=outboundFlight", "Value={userSession}", "ENDITEM", 
+		"Name=outboundFlight", "Value={outboundFlight}", "ENDITEM", 
 		"Name=advanceDiscount", "Value=0", "ENDITEM", 
 		"Name=returnFlight", "Value=", "ENDITEM", 
 		"Name=JSFormSubmit", "Value=off", "ENDITEM", 
@@ -2796,7 +2808,49 @@ Flights()
 		"Name=buyFlights.x", "Value=23", "ENDITEM", 
 		"Name=buyFlights.y", "Value=5", "ENDITEM", 
 		"LAST");
+	
+	
 	lr_end_transaction("PaymentData", 2);
+	
+	lr_start_transaction("Itinerary");
+
+	web_submit_form("reservations.pl_4", 
+		"Snapshot=t25.inf", 
+		"ITEMDATA", 
+		"Name=Book Another.x", "Value=53", "ENDITEM", 
+		"Name=Book Another.y", "Value=1", "ENDITEM", 
+		"LAST");
+	lr_end_transaction("Itinerary", 2);
+	
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+	
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+	
 	lr_end_transaction("0404_BuyFlight", 2);
 	
 	

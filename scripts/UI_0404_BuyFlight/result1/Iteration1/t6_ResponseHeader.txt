@@ -1,7 +1,7 @@
 HTTP/1.1 200 OK
-Date: Thu, 09 Sep 2021 13:15:43 GMT
+Date: Sun, 12 Sep 2021 16:23:39 GMT
 Server: Apache/2.2.21 (Win32)
-Expires: Wed, 08 Sep 2021 13:15:43 GMT
+Expires: Sat, 11 Sep 2021 16:23:39 GMT
 Set-Cookie: MTUserInfo=firstName&Alexander&username&AlexS&address2&Moscow&hash&83&address1&Alley&lastName&Smirnov%0A; path=/
 Keep-Alive: timeout=5, max=90
 Connection: Keep-Alive

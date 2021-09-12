@@ -7,6 +7,6 @@ Accept-Language: ru,en-US;q=0.7,en;q=0.3
 Accept: */*
 Connection: Keep-Alive
 Host: 127.0.0.1:1080
-Cookie: MSO=SID&1631193353; MTUserInfo=firstName&Mira&address2&Minsk&username&Mira&hash&33&lastName&Rev%0A&address1&Alley3&creditCard&&expDate&%0A
-Content-Length: 325
+Cookie: MSO=SID&1631463828; MTUserInfo=firstName&Mira&address2&Minsk&username&Mira&hash&33&lastName&Rev%0A&address1&Alley3&creditCard&&expDate&%0A
+Content-Length: 301
 
