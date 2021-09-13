@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Mon, 13 Sep 2021 17:24:52 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Set-Cookie: MTUserInfo=firstName&Mira&address2&Alley7&username&36126&hash&118&lastName&Vo&address1&Moscow&creditCard&&expDate&; path=/
+Keep-Alive: timeout=5, max=96
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+

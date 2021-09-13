@@ -1,0 +1,2 @@
+"userSession=132155.090886999zHQHHcHptiHftAHizpDztQcf&username=Gerald&password=dlareG&JSFormSub"
+"mit=off&login.x=55&login.y=3"

@@ -1,0 +1,32 @@
+[
+    {
+        "transactionName": "WebTourConnection",
+        "rawStartTime": 1631539576347,
+        "rawEndTime": 1631539576583
+    },
+    {
+        "transactionName": "Login",
+        "rawStartTime": 1631539576678,
+        "rawEndTime": 1631539576898
+    },
+    {
+        "transactionName": "Flights",
+        "rawStartTime": 1631539576992,
+        "rawEndTime": 1631539577195
+    },
+    {
+        "transactionName": "SearchFlight",
+        "rawStartTime": 1631539577305,
+        "rawEndTime": 1631539577571
+    },
+    {
+        "transactionName": "ChooseFlight",
+        "rawStartTime": 1631539577666,
+        "rawEndTime": 1631539577887
+    },
+    {
+        "transactionName": "0303_ChooseFLight",
+        "rawStartTime": 1631539576298,
+        "rawEndTime": 1631539577950
+    }
+]

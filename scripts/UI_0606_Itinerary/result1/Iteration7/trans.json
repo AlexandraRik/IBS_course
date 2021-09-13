@@ -1,0 +1,22 @@
+[
+    {
+        "transactionName": "WebTourConnection",
+        "rawStartTime": 1631485261316,
+        "rawEndTime": 1631485261503
+    },
+    {
+        "transactionName": "Login",
+        "rawStartTime": 1631485261613,
+        "rawEndTime": 1631485261847
+    },
+    {
+        "transactionName": "Itinerary",
+        "rawStartTime": 1631485261955,
+        "rawEndTime": 1631485262238
+    },
+    {
+        "transactionName": "0505_Itinerary",
+        "rawStartTime": 1631485261238,
+        "rawEndTime": 1631485262316
+    }
+]

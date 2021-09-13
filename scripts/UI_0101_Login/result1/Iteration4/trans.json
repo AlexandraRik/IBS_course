@@ -1,0 +1,22 @@
+[
+    {
+        "transactionName": "WebTourConnection",
+        "rawStartTime": 1631454591255,
+        "rawEndTime": 1631454591475
+    },
+    {
+        "transactionName": "Login",
+        "rawStartTime": 1631454591570,
+        "rawEndTime": 1631454591850
+    },
+    {
+        "transactionName": "SignOff",
+        "rawStartTime": 1631454591928,
+        "rawEndTime": 1631454592101
+    },
+    {
+        "transactionName": "0101_Login",
+        "rawStartTime": 1631454591193,
+        "rawEndTime": 1631454592162
+    }
+]

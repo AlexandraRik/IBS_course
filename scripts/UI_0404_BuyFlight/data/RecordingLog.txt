@@ -1,0 +1,259 @@
+[API Trapper      ( b8c: 17c)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      (3a30:17b0)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[API Trapper      (400c:1bf0)] Recording in 64-bit mode: C:\WINDOWS\system32\IESettingSync.exe
+[Network Analyzer (3a30:1868)] ------------------------------------------------------------------------------------------
+[Network Analyzer (3a30:1868)] Load Network Traffic Analyzers:
+[Network Analyzer (3a30:1868)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (3a30:1868)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (3a30:1868)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (3a30:1868)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (3a30:1868)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (3a30:1868)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (3a30:1868)] ------------------------------------------------------------------------------------------
+[Network Analyzer (3a30:3434)] Address lookup for DESKTOP-3PRQJJI = 192.168.100.4
+[Network Analyzer (3a30:1868)] Address lookup for DESKTOP-3PRQJJI = 192.168.100.4
+[Network Analyzer (3a30:1868)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (3a30:14f8)] Address lookup for DESKTOP-3PRQJJI = 192.168.100.4
+[Network Analyzer (3a30: d80)] Address lookup for DESKTOP-3PRQJJI = 192.168.100.4
+[Network Analyzer (3a30:1868)] Address lookup for DESKTOP-3PRQJJI = 192.168.100.4
+[Web Request      (3a30:3434)] "GET /WebTours"   
+[Network Analyzer (3a30:3434)]   (Sid:  1) Client -> Server @ : 287 bytes (Service=HTTP)
+[Network Analyzer (3a30:1868)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (3a30:3434)]   (Sid:  1) Server -> Client : 506 bytes  (Service=HTTP)
+[Network Analyzer (3a30:1868)] Address lookup for DESKTOP-3PRQJJI = 192.168.100.4
+[Network Analyzer (3a30:1868)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      (3a30:3434)] "GET /WebTours/"   
+[Network Analyzer (3a30:3434)]   (Sid:  1) Client -> Server @ : 288 bytes (Service=HTTP)
+[Network Analyzer (3a30:1868)] Address lookup for DESKTOP-3PRQJJI = 192.168.100.4
+[Network Analyzer (3a30: d80)] Request Connection: Remote Server @ 23.210.181.177:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (3a30:3434)]   (Sid:  1) Server -> Client : 664 bytes  (Service=HTTP)
+[Network Analyzer (3a30:14f8)] Request Connection: Remote Server @ 23.210.181.177:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (3a30:1868)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      (3a30:3434)] "GET /WebTours/header.html"   
+[Network Analyzer (3a30:3434)]   (Sid:  1) Client -> Server @ : 341 bytes (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid:  1) Server -> Client : 1007 bytes  (Service=HTTP)
+[Web Request      (3a30:3434)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (3a30:3434)]   (Sid:  2) Client -> Server @ : 352 bytes (Service=HTTP)
+[Web Request      (3a30:3434)] "GET /WebTours/images/hp_logo.png"   
+[Network Analyzer (3a30:3434)]   (Sid:  1) Client -> Server @ : 372 bytes (Service=HTTP)
+[Web Request      (3a30:3434)] "GET /WebTours/images/webtours.png"   
+[Network Analyzer (3a30:3434)]   (Sid:  3) Client -> Server @ : 373 bytes (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid:  1) Server -> Client : 899 bytes  (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid:  2) Server -> Client : 1026 bytes  (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid:  3) Server -> Client : 4487 bytes  (Service=HTTP)
+[Web Request      (3a30:3434)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (3a30:3434)]   (Sid:  3) Client -> Server @ : 393 bytes (Service=HTTP)
+[Web Request      (3a30:3434)] "GET /WebTours/home.html"   
+[Network Analyzer (3a30:3434)]   (Sid:  2) Client -> Server @ : 389 bytes (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid:  2) Server -> Client : 1659 bytes  (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid:  3) Server -> Client : 1752 bytes  (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid:  3) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (3a30:3434)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer (3a30:3434)]   (Sid:  3) Client -> Server @ : 404 bytes (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid:  3) Server -> Client : 977 bytes  (Service=HTTP)
+[Web Request      (3a30:3434)] "GET /favicon.ico"   
+[Network Analyzer (3a30:3434)]   (Sid:  3) Client -> Server @ : 231 bytes (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid:  3) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (3a30:41d0)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (3a30:42e8)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (3a30:42e8)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (3a30:41d0)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (3a30:3434)] "GET /fwlink/?linkid=2133855&bucket=21&customertype=1"   
+[Network Analyzer (3a30:3434)]   (Sid:  4) Client -> Server @ : 994 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid:  4) Server -> Client : 474 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid:  1) Connection Terminated (by Server)
+[Network Analyzer (3a30:3434)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer (3a30:3434)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer (3a30:1868)] Address lookup for DESKTOP-3PRQJJI = 192.168.100.4
+[Network Analyzer (3a30: d80)] Address lookup for DESKTOP-3PRQJJI = 192.168.100.4
+[Web Request      (3a30:3434)] "GET /fwlink/?linkid=2133855&bucket=21&customertype=1"   
+[Network Analyzer (3a30:3434)]   (Sid:  4) Client -> Server @ : 994 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid:  4) Server -> Client : 474 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3a30:1868)] Request Connection: Remote Server @ 204.79.197.219:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (3a30: d80)] Request Connection: Remote Server @ 204.79.197.219:443   (Service=)  (Sid=  8)  PROXIED!
+[Net An. Error    (3a30:287c)] SSL_connect(ssl_id = 253959168 = 0F231C00) Failed, ctx = 0F232588, err = "SSLv2/v3 read server hello A", err code = 5, err msg = "error:00000005:lib(0):func(0):DH lib
+"
+[Net An. Error    (3a30:287c)]   (Sid:  7) SSL handshake with remote server Failed!
+[Net An. Error    (3a30:3448)] SSL_connect(ssl_id = 253962096 = 0F232770) Failed, ctx = 0F232588, err = "SSLv2/v3 read server hello A", err code = 5, err msg = "error:00000005:lib(0):func(0):DH lib
+"
+[Net An. Error    (3a30:3448)]   (Sid:  8) SSL handshake with remote server Failed!
+[Network Analyzer (3a30:3434)]   (Sid:  5) Connection Terminated (by Server)
+[Network Analyzer ( b8c: 774)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( b8c: 774)] Load Network Traffic Analyzers:
+[Network Analyzer ( b8c: 774)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( b8c: 774)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer ( b8c: 774)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( b8c: 774)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer ( b8c: 774)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer ( b8c: 774)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( b8c: 774)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( b8c:3300)] Address lookup for DESKTOP-3PRQJJI = 192.168.100.4
+[User action                 ] StartTransactionEvent WebTourConnection [Network Analyzer ( b8c: 774)] Address lookup for DESKTOP-3PRQJJI = 192.168.100.4
+[Network Analyzer ( b8c: 774)] Request Connection: Remote Server @ 152.199.19.161:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (3a30:14f8)] Address lookup for DESKTOP-3PRQJJI = 192.168.100.4
+[Network Analyzer (3a30:14f8)] Request Connection: Remote Server @ 152.199.19.161:443   (Service=)  (Sid=  9)  PROXIED!
+[Net An. Error    (3a30:3ce0)] SSL_connect(ssl_id = 253955264 = 0F230CC0) Failed, ctx = 0F231DE8, err = "SSLv2/v3 read server hello A", err code = 1, err msg = "error:00000001:lib(0):func(0):reason(1)
+error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version
+"
+[Net An. Error    (3a30:3ce0)]   (Sid:  9) SSL handshake with remote server Failed!
+[Net An. Error    ( b8c: e20)] SSL_connect(ssl_id = 2870786630144 = 0000029C6837A200) Failed, ctx = 0000029C68379660, err = "SSLv2/v3 read server hello A", err code = 1, err msg = "error:00000001:lib(0):func(0):reason(1)
+error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version
+"
+[Net An. Error    ( b8c: e20)]   (Sid:  1) SSL handshake with remote server Failed!
+[Network Analyzer (3a30:14f8)] Address lookup for DESKTOP-3PRQJJI = 192.168.100.4
+[Network Analyzer (3a30:14f8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 10)  PROXIED!
+[Web Request      (3a30:3434)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (3a30:3434)]   (Sid: 10) Client -> Server @ : 596 bytes (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 10) Server -> Client : 847 bytes  (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (3a30:3434)]   (Sid: 10) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (3a30:3434)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (3a30:3434)]   (Sid: 10) Client -> Server @ : 498 bytes (Service=HTTP)
+[Network Analyzer (3a30:14f8)] Address lookup for DESKTOP-3PRQJJI = 192.168.100.4
+[Network Analyzer (3a30:14f8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (3a30:3434)]   (Sid: 10) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 10) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (3a30:3434)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (3a30:3434)]   (Sid: 11) Client -> Server @ : 493 bytes (Service=HTTP)
+[Web Request      (3a30:3434)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer (3a30:3434)]   (Sid: 10) Client -> Server @ : 522 bytes (Service=HTTP)
+[Network Analyzer (3a30:1868)] Address lookup for DESKTOP-3PRQJJI = 192.168.100.4
+[Network Analyzer (3a30:3e64)] Address lookup for DESKTOP-3PRQJJI = 192.168.100.4
+[Network Analyzer (3a30:14f8)] Address lookup for DESKTOP-3PRQJJI = 192.168.100.4
+[Network Analyzer (3a30:1868)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      (3a30:3434)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer (3a30:3434)]   (Sid: 12) Client -> Server @ : 522 bytes (Service=HTTP)
+[Network Analyzer (3a30:3e64)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (3a30:3434)]   (Sid: 12) Server -> Client : 986 bytes  (Service=HTTP)
+[Network Analyzer (3a30:14f8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 14)  PROXIED!
+[Web Request      (3a30:3434)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer (3a30:3434)]   (Sid: 13) Client -> Server @ : 522 bytes (Service=HTTP)
+[Web Request      (3a30:3434)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer (3a30:3434)]   (Sid: 12) Client -> Server @ : 524 bytes (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 13) Server -> Client : 1050 bytes  (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 10) Server -> Client : 1023 bytes  (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 12) Server -> Client : 1030 bytes  (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 11) Server -> Client : 1154 bytes  (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 11) Server -> Client : 5 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent WebTourConnection [Network Analyzer (3a30:3434)]   (Sid: 13) Connection Terminated (by Server)
+[Network Analyzer (3a30:3434)]   (Sid: 12) Connection Terminated (by Server)
+[Network Analyzer (3a30:3434)]   (Sid: 10) Connection Terminated (by Server)
+[Network Analyzer (3a30:3434)]   (Sid: 11) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent Flights [Network Analyzer (3a30:3434)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer (3a30:3270)] Address lookup for DESKTOP-3PRQJJI = 192.168.100.4
+[Network Analyzer (3a30:14f8)] Address lookup for DESKTOP-3PRQJJI = 192.168.100.4
+[Network Analyzer (3a30:3270)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 15)  PROXIED!
+[Web Request      (3a30:3434)] "GET /cgi-bin/welcome.pl?page=search"   
+[Network Analyzer (3a30:3434)]   (Sid: 15) Client -> Server @ : 512 bytes (Service=HTTP)
+[Network Analyzer (3a30:14f8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (3a30:3434)]   (Sid: 15) Server -> Client : 839 bytes  (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 15) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (3a30:3434)] "GET /cgi-bin/nav.pl?page=menu&in=flights"   
+[Network Analyzer (3a30:3434)]   (Sid: 15) Client -> Server @ : 515 bytes (Service=HTTP)
+[Web Request      (3a30:3434)] "GET /cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer (3a30:3434)]   (Sid: 16) Client -> Server @ : 516 bytes (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 15) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 15) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 16) Server -> Client : 4516 bytes  (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 16) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (3a30:3434)] "GET /WebTours/images/in_flights.gif"   
+[Network Analyzer (3a30:3434)]   (Sid: 16) Client -> Server @ : 528 bytes (Service=HTTP)
+[Web Request      (3a30:3434)] "GET /WebTours/images/home.gif"   
+[Network Analyzer (3a30:3434)]   (Sid: 15) Client -> Server @ : 522 bytes (Service=HTTP)
+[Network Analyzer (3a30:3270)] Address lookup for DESKTOP-3PRQJJI = 192.168.100.4
+[Network Analyzer (3a30:3270)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (3a30:3434)]   (Sid: 15) Server -> Client : 985 bytes  (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 16) Server -> Client : 1025 bytes  (Service=HTTP)
+[Web Request      (3a30:3434)] "GET /WebTours/images/button_next.gif"   
+[Network Analyzer (3a30:3434)]   (Sid: 17) Client -> Server @ : 530 bytes (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 17) Server -> Client : 1057 bytes  (Service=HTTP)
+[Web Request      (3a30:3434)] "GET /WebTours/classes/"   
+[Network Analyzer (3a30:3434)]   (Sid: 17) Client -> Server @ : 482 bytes (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 17) Server -> Client : 434 bytes  (Service=HTTP)
+[Web Request      (3a30:3434)] "GET /WebTours/classes/"   
+[Network Analyzer (3a30:3434)]   (Sid: 17) Client -> Server @ : 482 bytes (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 17) Server -> Client : 434 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent Flights [Network Analyzer (3a30:3434)]   (Sid: 16) Connection Terminated (by Server)
+[Network Analyzer (3a30:3434)]   (Sid: 15) Connection Terminated (by Server)
+[Network Analyzer (3a30:3434)]   (Sid: 17) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent SearchFlight [Network Analyzer (3a30:14f8)] Address lookup for DESKTOP-3PRQJJI = 192.168.100.4
+[Network Analyzer (3a30:3270)] Address lookup for DESKTOP-3PRQJJI = 192.168.100.4
+[Network Analyzer (3a30:14f8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 18)  PROXIED!
+[Web Request      (3a30:3434)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (3a30:3434)]   (Sid: 18) Client -> Server @ : 847 bytes (Service=HTTP)
+[Network Analyzer (3a30:3270)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (3a30:3434)]   (Sid: 18) Server -> Client : 2710 bytes  (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 18) Server -> Client : 5 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent SearchFlight [Network Analyzer (3a30:3434)]   (Sid: 18) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent ChooseFlight [Network Analyzer (3a30:3270)] Address lookup for DESKTOP-3PRQJJI = 192.168.100.4
+[Network Analyzer (3a30:14f8)] Address lookup for DESKTOP-3PRQJJI = 192.168.100.4
+[Network Analyzer (3a30:14f8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (3a30:3434)]   (Sid: 19) Connection Terminated (by Client)
+[Network Analyzer (3a30:3270)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 21)  PROXIED!
+[Web Request      (3a30:3434)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (3a30:3434)]   (Sid: 20) Client -> Server @ : 736 bytes (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 20) Server -> Client : 2962 bytes  (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 20) Server -> Client : 5 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent ChooseFlight [Network Analyzer (3a30:3434)]   (Sid: 20) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent PaymentData [Network Analyzer (3a30:3434)]   (Sid: 21) Connection Terminated (by Client)
+[Network Analyzer (3a30:14f8)] Address lookup for DESKTOP-3PRQJJI = 192.168.100.4
+[Network Analyzer (3a30:3270)] Address lookup for DESKTOP-3PRQJJI = 192.168.100.4
+[Network Analyzer (3a30:14f8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 22)  PROXIED!
+[Web Request      (3a30:3434)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (3a30:3434)]   (Sid: 22) Client -> Server @ : 899 bytes (Service=HTTP)
+[Network Analyzer (3a30:3270)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer (3a30:3434)]   (Sid: 22) Server -> Client : 2844 bytes  (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 22) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (3a30:3434)] "GET /WebTours/images/bookanother.gif"   
+[Network Analyzer (3a30:3434)]   (Sid: 22) Client -> Server @ : 493 bytes (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 22) Server -> Client : 1103 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent PaymentData [Network Analyzer (3a30:3434)]   (Sid: 22) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent Itinerary [Network Analyzer (3a30:3270)] Address lookup for DESKTOP-3PRQJJI = 192.168.100.4
+[Network Analyzer (3a30:3270)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (3a30:3434)]   (Sid: 23) Connection Terminated (by Client)
+[Web Request      (3a30:3434)] "GET /cgi-bin/welcome.pl?page=itinerary"   
+[Network Analyzer (3a30:3434)]   (Sid: 24) Client -> Server @ : 494 bytes (Service=HTTP)
+[Network Analyzer (3a30:14f8)] Address lookup for DESKTOP-3PRQJJI = 192.168.100.4
+[Network Analyzer (3a30:14f8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (3a30:3434)]   (Sid: 24) Server -> Client : 814 bytes  (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 24) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (3a30:3434)] "GET /cgi-bin/nav.pl?page=menu&in=itinerary"   
+[Network Analyzer (3a30:3434)]   (Sid: 24) Client -> Server @ : 496 bytes (Service=HTTP)
+[Web Request      (3a30:3434)] "GET /cgi-bin/itinerary.pl"   
+[Network Analyzer (3a30:3434)]   (Sid: 25) Client -> Server @ : 479 bytes (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 24) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 24) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 25) Server -> Client : 4235 bytes  (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 25) Server -> Client : 15330 bytes  (Service=HTTP)
+[Web Request      (3a30:3434)] "GET /WebTours/images/in_itinerary.gif"   
+[Network Analyzer (3a30:3434)]   (Sid: 24) Client -> Server @ : 508 bytes (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 25) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (3a30:3434)] "GET /WebTours/images/cancelreservation.gif"   
+[Network Analyzer (3a30:3434)]   (Sid: 25) Client -> Server @ : 496 bytes (Service=HTTP)
+[Network Analyzer (3a30:14f8)] Address lookup for DESKTOP-3PRQJJI = 192.168.100.4
+[Network Analyzer (3a30:14f8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (3a30:3434)]   (Sid: 24) Server -> Client : 1031 bytes  (Service=HTTP)
+[Web Request      (3a30:3434)] "GET /WebTours/images/cancelallreservations.gif"   
+[Network Analyzer (3a30:3434)]   (Sid: 26) Client -> Server @ : 500 bytes (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 26) Server -> Client : 1041 bytes  (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 25) Server -> Client : 1129 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent Itinerary [Network Analyzer (3a30:3434)]   (Sid: 24) Connection Terminated (by Server)
+[Network Analyzer (3a30:3434)]   (Sid: 26) Connection Terminated (by Server)
+[Network Analyzer (3a30:3434)]   (Sid: 25) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent SignOff [Network Analyzer (3a30:14f8)] Address lookup for DESKTOP-3PRQJJI = 192.168.100.4
+[Network Analyzer (3a30:14f8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer (3a30:3270)] Address lookup for DESKTOP-3PRQJJI = 192.168.100.4
+[Web Request      (3a30:3434)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (3a30:3434)]   (Sid: 27) Client -> Server @ : 491 bytes (Service=HTTP)
+[Network Analyzer (3a30:3270)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (3a30:3434)]   (Sid: 27) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 27) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (3a30:3434)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (3a30:3434)]   (Sid: 27) Client -> Server @ : 390 bytes (Service=HTTP)
+[Web Request      (3a30:3434)] "GET /WebTours/home.html"   
+[Network Analyzer (3a30:3434)]   (Sid: 28) Client -> Server @ : 486 bytes (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 28) Server -> Client : 194 bytes  (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 27) Server -> Client : 1749 bytes  (Service=HTTP)
+[Network Analyzer (3a30:3434)]   (Sid: 27) Server -> Client : 5 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent SignOff [Network Analyzer (3a30:3434)]   (Sid: 28) Connection Terminated (by Server)
+[Network Analyzer (3a30:3434)]   (Sid: 27) Connection Terminated (by Server)

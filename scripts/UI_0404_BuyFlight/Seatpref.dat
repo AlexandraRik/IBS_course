@@ -1,0 +1,11 @@
+Seatpref,SeatType
+Aisle,First
+Aisle,Business
+Aisle,Coach
+Window,First
+Window,Business
+Window,Coach
+None,First
+None,Business
+None,Coach
+Aisle,First
