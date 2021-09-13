@@ -1,0 +1,50 @@
+[Scenario]
+Product=HPE LoadRunner Controller
+Version=12.55.0.0
+Path=Scenario1
+Subject=
+Result_file=c:\users\александра\desktop\домашние задания\res1\res1.lrr
+Description=
+ResultName=res1
+Time_Zone=-10800
+Start_time=1631554427
+Daylight_Bias=0
+Stop_time=1631555763
+
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+
+[Data Collection]
+FullData=1
+SummaryEnded=1
+
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Schedule 1
+Mode=Scenario Scheduling
+Scenario Duration=Start 10 Vusers: 1 every 00:00:06 (HH:MM:SS); Run for 00:20:00 (HH:MM:SS); Stop all Vusers: 1 every 00:00:06 (HH:MM:SS)
+Load Behavior=Initialize all Vusers simultaneously
+
+[Scripts]
+UI_0606_Itinerary=C:\Users\Александра\Documents\VuGen\Scripts\Scripts_\UI_0606_Itinerary\UI_0606_Itinerary.usr
+UI_0303_ChooseFlight=C:\Users\Александра\Documents\VuGen\Scripts\Scripts_\UI_0303_ChooseFlight\UI_0303_ChooseFlight.usr
+UI_05050_Delete=C:\Users\Александра\Documents\VuGen\Scripts\Scripts_\UI_05050_Delete\UI_05050_Delete.usr
+UI_0101_Login=C:\Users\Александра\Documents\VuGen\Scripts\Scripts_\UI_0101_Login\UI_0101_Login.usr
+UI_0404_BuyFlight=C:\Users\Александра\Documents\VuGen\Scripts\Scripts_\UI_0404_BuyFlight\UI_0404_BuyFlight.usr
+UI_0202_SignUp=C:\Users\Александра\Documents\VuGen\Scripts\Scripts_\UI_0202_SignUp\UI_0202_SignUp.usr
+
+[Scripts_types]
+UI_0606_Itinerary=Multi+QTWeb
+UI_0303_ChooseFlight=Multi+QTWeb
+UI_05050_Delete=Multi+QTWeb
+UI_0101_Login=Multi+QTWeb
+UI_0404_BuyFlight=Multi+QTWeb
+UI_0202_SignUp=Multi+QTWeb
+

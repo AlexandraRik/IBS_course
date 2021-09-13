@@ -1,0 +1,5 @@
+[Diagnostics]
+Status=-1
+[Collate Recovery]
+Scenario=C:\Program Files (x86)\HPE\LoadRunner\scenario\Отладочный_тест.lrs
+Completed=0
