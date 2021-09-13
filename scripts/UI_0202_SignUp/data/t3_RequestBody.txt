@@ -1,2 +1,0 @@
-"username=AlexS&password=vjkjrj&passwordConfirm=vjkjrj&firstName=Alexander&lastName=Smirnov&add"
-"ress1=Alley&address2=Moscow&register.x=18&register.y=5"

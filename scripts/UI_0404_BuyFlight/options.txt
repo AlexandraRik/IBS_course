@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IC:\Users\јлександра\Documents\VuGen\Scripts\Scripts_\UI_0404_BuyFlight
--IC:\Program Files (x86)\HPE\LoadRunner\include
--ec:\users\александра\documents\vugen\scripts\scripts_\ui_0404_buyflight\\logfile.log
-c:\users\александра\documents\vugen\scripts\scripts_\ui_0404_buyflight\\combined_UI_0404_BuyFlight.c
-c:\users\александра\documents\vugen\scripts\scripts_\ui_0404_buyflight\\pre_cci.c

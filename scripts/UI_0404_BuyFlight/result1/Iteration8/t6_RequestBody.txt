@@ -1,4 +1,0 @@
-"firstName=Anton&lastName=Sergeev&address1=Alley+5&address2=Tver&pass1=Anton+Sergeev&creditCard"
-"=65432&expDate=08%2F22&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFligh"
-"t=430%3B438%3B08%2F10%2F2021&advanceDiscount=0&returnFlight=&JSFormSubmit=off&.cgifields=saveC"
-"C&buyFlights.x=23&buyFlights.y=5"

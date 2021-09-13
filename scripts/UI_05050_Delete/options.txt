@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IC:\Users\јлександра\Documents\VuGen\Scripts\Scripts_\UI_05050_Delete
--IC:\Program Files (x86)\HPE\LoadRunner\include
--ec:\users\александра\documents\vugen\scripts\scripts_\ui_05050_delete\\logfile.log
-c:\users\александра\documents\vugen\scripts\scripts_\ui_05050_delete\\combined_UI_05050_Delete.c
-c:\users\александра\documents\vugen\scripts\scripts_\ui_05050_delete\\pre_cci.c
