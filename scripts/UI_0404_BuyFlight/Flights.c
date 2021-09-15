@@ -175,7 +175,7 @@ Flights()
 
 	lr_end_transaction("PaymentData",LR_AUTO);
 
-	lr_think_time(2);
+	lr_think_time(3);
 
 	lr_start_transaction("Itinerary");
 

@@ -33,7 +33,7 @@ Login()
 
 	lr_end_transaction("WebTourConnection", LR_AUTO);
 	
-	lr_think_time(5);
+	lr_think_time(15);
 	
 	
 	lr_start_transaction("Login");
@@ -65,7 +65,7 @@ Login()
 
 	lr_end_transaction("Login",LR_AUTO);
 	
-	lr_think_time(5);
+	lr_think_time(15);
 	
 		lr_start_transaction("SignOff");
 

@@ -27,7 +27,7 @@ Action()
 	
 	lr_end_transaction("WebTourConnection", LR_AUTO);
 
-	lr_think_time(5);
+	lr_think_time(9);
 
 	lr_start_transaction("Login");
 	
@@ -54,7 +54,7 @@ Action()
 
 	lr_end_transaction("Login",LR_AUTO);
 
-	lr_think_time(5);
+	lr_think_time(9);
 
 	lr_start_transaction("Flights");
 	web_reg_find("Text/IC= User has returned to the search page",
@@ -72,7 +72,7 @@ Action()
 
 	lr_end_transaction("Flights",LR_AUTO);
 
-	lr_think_time(5);
+	lr_think_time(9);
 
 	lr_start_transaction("SearchFlight");
 	
@@ -125,7 +125,7 @@ Action()
 
 	lr_end_transaction("SearchFlight",LR_AUTO);
 
-	lr_think_time(4);
+	lr_think_time(9);
 
 	lr_start_transaction("ChooseFlight");
 	

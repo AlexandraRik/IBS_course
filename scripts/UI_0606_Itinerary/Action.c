@@ -22,7 +22,7 @@ Action()
 
 	web_set_sockets_option("SSL_VERSION", "2&3");
 
-	lr_think_time(7);
+	lr_think_time(35);
 
 	lr_start_transaction("Login");
 	web_reg_find("Text/IC=User password was correct",
@@ -48,7 +48,7 @@ Action()
 
 	lr_end_transaction("Login",LR_AUTO);
 
-	lr_think_time(7);
+	lr_think_time(35);
 
 	lr_start_transaction("Itinerary");
 

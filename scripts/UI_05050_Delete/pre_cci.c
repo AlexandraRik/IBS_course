@@ -1,4 +1,4 @@
-# 1 "c:\\users\\\340\353\345\352\361\340\355\344\360\340\\documents\\github\\ibs_course\\scripts\\ui_05050_delete\\\\combined_UI_05050_Delete.c"
+# 1 "c:\\users\\\340\353\345\352\361\340\355\344\360\340\\documents\\vugen\\scripts\\scripts_\\ui_05050_delete\\\\combined_UI_05050_Delete.c"
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h" 1
  
  
@@ -962,7 +962,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\\340\353\345\352\361\340\355\344\360\340\\documents\\github\\ibs_course\\scripts\\ui_05050_delete\\\\combined_UI_05050_Delete.c" 2
+# 1 "c:\\users\\\340\353\345\352\361\340\355\344\360\340\\documents\\vugen\\scripts\\scripts_\\ui_05050_delete\\\\combined_UI_05050_Delete.c" 2
 
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1126,7 +1126,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\\340\353\345\352\361\340\355\344\360\340\\documents\\github\\ibs_course\\scripts\\ui_05050_delete\\\\combined_UI_05050_Delete.c" 2
+# 2 "c:\\users\\\340\353\345\352\361\340\355\344\360\340\\documents\\vugen\\scripts\\scripts_\\ui_05050_delete\\\\combined_UI_05050_Delete.c" 2
 
 # 1 "globals.h" 1
 
@@ -2583,14 +2583,14 @@ void
  
 
 
-# 3 "c:\\users\\\340\353\345\352\361\340\355\344\360\340\\documents\\github\\ibs_course\\scripts\\ui_05050_delete\\\\combined_UI_05050_Delete.c" 2
+# 3 "c:\\users\\\340\353\345\352\361\340\355\344\360\340\\documents\\vugen\\scripts\\scripts_\\ui_05050_delete\\\\combined_UI_05050_Delete.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\\340\353\345\352\361\340\355\344\360\340\\documents\\github\\ibs_course\\scripts\\ui_05050_delete\\\\combined_UI_05050_Delete.c" 2
+# 4 "c:\\users\\\340\353\345\352\361\340\355\344\360\340\\documents\\vugen\\scripts\\scripts_\\ui_05050_delete\\\\combined_UI_05050_Delete.c" 2
 
 # 1 "Action.c" 1
 Action()
@@ -2619,7 +2619,7 @@ Action()
 
 	web_set_sockets_option("SSL_VERSION", "2&3");
 	lr_end_transaction("WebTourConnection", 2);
-lr_think_time(5);
+lr_think_time(12);
 	
 	lr_start_transaction("Login");
 	
@@ -2654,23 +2654,21 @@ lr_think_time(5);
 		"LAST");
 	lr_end_transaction("Itinerary", 2);
 
-	lr_think_time(5);
-	lr_start_transaction("delete_tickets");
- 
- 
- 
-	
+	lr_think_time(11);
+	lr_start_transaction("delete_tickets");	
 	
 
-	web_reg_find("Fail=Found",
-		"Text/IC={FlightID}",
-		"LAST");
+ 
+ 
+ 
+ 
+ 
 
 	web_submit_form("itinerary.pl", 
 		"Snapshot=t4.inf", 
 		"ITEMDATA", 
 		"Name=1", "Value=on", "ENDITEM", 
-		 
+		"Name=2", "Value=on", "ENDITEM", 
 		"Name=removeFlights.x", "Value=45", "ENDITEM", 
 		"Name=removeFlights.y", "Value=6", "ENDITEM", 
 		"LAST");
@@ -2682,14 +2680,10 @@ lr_think_time(5);
 	
 	lr_end_transaction("delete_tickets", 2);
 	
-	lr_start_transaction("SignOff");
 
-	web_image("SignOff Button", 
-		"Alt=SignOff Button", 
-		"Snapshot=t5.inf", 
-		"LAST");
-
-	lr_end_transaction("SignOff",2); 
+	
+	
+	
 	
 	lr_end_transaction("05050_Delete", 2);
 
@@ -2697,12 +2691,12 @@ lr_think_time(5);
 
 	return 0;
 }
-# 5 "c:\\users\\\340\353\345\352\361\340\355\344\360\340\\documents\\github\\ibs_course\\scripts\\ui_05050_delete\\\\combined_UI_05050_Delete.c" 2
+# 5 "c:\\users\\\340\353\345\352\361\340\355\344\360\340\\documents\\vugen\\scripts\\scripts_\\ui_05050_delete\\\\combined_UI_05050_Delete.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\\340\353\345\352\361\340\355\344\360\340\\documents\\github\\ibs_course\\scripts\\ui_05050_delete\\\\combined_UI_05050_Delete.c" 2
+# 6 "c:\\users\\\340\353\345\352\361\340\355\344\360\340\\documents\\vugen\\scripts\\scripts_\\ui_05050_delete\\\\combined_UI_05050_Delete.c" 2
 

@@ -23,7 +23,7 @@ web_reg_find("Text/IC=Web Tours",
 	
 	lr_end_transaction("WebTourConnection", LR_AUTO);
 
-	lr_think_time(3);
+	lr_think_time(10);
 	
 
 	lr_start_transaction("PressSignup");
@@ -42,7 +42,7 @@ web_reg_find("Text/IC=Web Tours",
 		LAST);
 	lr_end_transaction("PressSignup",LR_AUTO);
 
-	lr_think_time(2); 
+	lr_think_time(10); 
 	
 	
 	lr_start_transaction("Signup");
@@ -87,7 +87,7 @@ web_reg_find("Text/IC=Web Tours",
 
 	
 
-	lr_think_time(3);
+	lr_think_time(10);
 	lr_end_transaction("Signup", LR_AUTO); 
 	
 	lr_start_transaction("PressNext");
@@ -106,7 +106,7 @@ web_reg_find("Text/IC=Web Tours",
     lr_end_transaction("PressNext", LR_AUTO);
     
     	
-	lr_think_time(2);
+	lr_think_time(10);
 	
 		lr_start_transaction("SignOff");
 

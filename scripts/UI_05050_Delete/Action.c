@@ -24,7 +24,7 @@ Action()
 
 	web_set_sockets_option("SSL_VERSION", "2&3");
 	lr_end_transaction("WebTourConnection", LR_AUTO);
-lr_think_time(5);
+lr_think_time(12);
 	
 	lr_start_transaction("Login");
 	
@@ -59,23 +59,21 @@ lr_think_time(5);
 		LAST);
 	lr_end_transaction("Itinerary", LR_AUTO);
 
-	lr_think_time(5);
-	lr_start_transaction("delete_tickets");
-//	web_reg_save_param("FlightID",
-//		"LB/IC=\"flightID\" value=\"",
-//		"RB/IC=\"", LAST); 
-	
+	lr_think_time(11);
+	lr_start_transaction("delete_tickets");	
 	
 
-	web_reg_find("Fail=Found",
-		"Text/IC={FlightID}",
-		LAST);
+//
+//	web_reg_find("Fail=Found",
+//		"Search=Body",
+//		"Text/IC={FlightID}",
+//		LAST);
 
 	web_submit_form("itinerary.pl", 
 		"Snapshot=t4.inf", 
 		ITEMDATA, 
 		"Name=1", "Value=on", ENDITEM, 
-		//"Name=2", "Value=on", ENDITEM, 
+		"Name=2", "Value=on", ENDITEM, 
 		"Name=removeFlights.x", "Value=45", ENDITEM, 
 		"Name=removeFlights.y", "Value=6", ENDITEM, 
 		LAST);
@@ -87,14 +85,10 @@ lr_think_time(5);
 	
 	lr_end_transaction("delete_tickets", LR_AUTO);
 	
-	lr_start_transaction("SignOff");
 
-	web_image("SignOff Button", 
-		"Alt=SignOff Button", 
-		"Snapshot=t5.inf", 
-		LAST);
-
-	lr_end_transaction("SignOff",LR_AUTO); 
+	
+	
+	
 	
 	lr_end_transaction("05050_Delete", LR_AUTO);
 
