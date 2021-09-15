@@ -1,2 +1,0 @@
-[Hosts]
-localhost=c:\users\александра\desktop\домашние задания\res1\localhost_35.eve
