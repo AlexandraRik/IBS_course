@@ -53,7 +53,7 @@ vuser_end=cci
 [TransactionsOrder]
 Order="05050_Delete__*delimiter*__WebTourConnection__*delimiter*__Login__*delimiter*__Itinerary__*delimiter*__delete_tickets__*delimiter*__SignOff"
 [StateManagement]
-LastReplayStatus=1
+LastReplayStatus=2
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1

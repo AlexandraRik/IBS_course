@@ -1,32 +1,27 @@
 [
     {
         "transactionName": "WebTourConnection",
-        "rawStartTime": 1631460495882,
-        "rawEndTime": 1631460496130
+        "rawStartTime": 1631723521865,
+        "rawEndTime": 1631723522101
     },
     {
         "transactionName": "Login",
-        "rawStartTime": 1631460496224,
-        "rawEndTime": 1631460496463
+        "rawStartTime": 1631723522198,
+        "rawEndTime": 1631723522431
     },
     {
         "transactionName": "Itinerary",
-        "rawStartTime": 1631460496541,
-        "rawEndTime": 1631460496825
+        "rawStartTime": 1631723522511,
+        "rawEndTime": 1631723522779
     },
     {
         "transactionName": "delete_tickets",
-        "rawStartTime": 1631460496922,
-        "rawEndTime": 1631460497109
-    },
-    {
-        "transactionName": "SignOff",
-        "rawStartTime": 1631460497204,
-        "rawEndTime": 1631460497378
+        "rawStartTime": 1631723522889,
+        "rawEndTime": 1631723523062
     },
     {
         "transactionName": "05050_Delete",
-        "rawStartTime": 1631460495818,
-        "rawEndTime": 1631460497456
+        "rawStartTime": 1631723521803,
+        "rawEndTime": 1631723523062
     }
 ]
